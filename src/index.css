@@ -1,0 +1,166 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Definition of the design system. All colors, gradients, fonts, etc should be defined here. 
+All colors MUST be HSL.
+*/
+
+@layer base {
+  :root {
+    /* Gallery warm cream walls */
+    --background: 42 35% 96%;
+    --foreground: 24 9% 10%;
+
+    /* Exhibit cards - slightly elevated */
+    --card: 40 40% 98%;
+    --card-foreground: 24 9% 10%;
+
+    --popover: 40 40% 98%;
+    --popover-foreground: 24 9% 10%;
+
+    /* Deep charcoal primary - elegant and timeless */
+    --primary: 24 9% 10%;
+    --primary-foreground: 42 35% 96%;
+
+    /* Soft neutral secondary */
+    --secondary: 30 10% 88%;
+    --secondary-foreground: 24 9% 10%;
+
+    /* Muted warm tones */
+    --muted: 30 15% 90%;
+    --muted-foreground: 24 6% 45%;
+
+    /* Gold accent for special moments */
+    --accent: 38 60% 55%;
+    --accent-foreground: 24 9% 10%;
+
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 42 35% 96%;
+
+    /* Soft borders like frame edges */
+    --border: 30 20% 85%;
+    --input: 30 20% 85%;
+    --ring: 38 60% 55%;
+
+    --radius: 0.25rem;
+
+    /* Custom museum tokens */
+    --gallery-shadow: 24 9% 10% / 0.08;
+    --exhibit-frame: 38 50% 45%;
+    --museum-highlight: 38 70% 65%;
+
+    /* Sidebar - warm gallery tone */
+    --sidebar-background: 40 30% 94%;
+    --sidebar-foreground: 24 9% 20%;
+    --sidebar-primary: 24 9% 10%;
+    --sidebar-primary-foreground: 42 35% 96%;
+    --sidebar-accent: 30 15% 90%;
+    --sidebar-accent-foreground: 24 9% 10%;
+    --sidebar-border: 30 20% 85%;
+    --sidebar-ring: 38 60% 55%;
+  }
+
+  .dark {
+    /* Dark museum mode - deep charcoal walls */
+    --background: 24 9% 10%;
+    --foreground: 42 35% 96%;
+
+    --card: 24 12% 14%;
+    --card-foreground: 42 35% 96%;
+
+    --popover: 24 12% 14%;
+    --popover-foreground: 42 35% 96%;
+
+    --primary: 42 35% 96%;
+    --primary-foreground: 24 9% 10%;
+
+    --secondary: 24 9% 18%;
+    --secondary-foreground: 42 35% 96%;
+
+    --muted: 24 9% 18%;
+    --muted-foreground: 30 10% 65%;
+
+    --accent: 38 60% 55%;
+    --accent-foreground: 24 9% 10%;
+
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 42 35% 96%;
+
+    --border: 24 9% 20%;
+    --input: 24 9% 20%;
+    --ring: 38 60% 55%;
+    
+    --gallery-shadow: 0 0% 0% / 0.3;
+    --exhibit-frame: 38 50% 45%;
+    --museum-highlight: 38 70% 65%;
+    
+    --sidebar-background: 24 9% 12%;
+    --sidebar-foreground: 42 35% 90%;
+    --sidebar-primary: 42 35% 96%;
+    --sidebar-primary-foreground: 24 9% 10%;
+    --sidebar-accent: 24 9% 18%;
+    --sidebar-accent-foreground: 42 35% 96%;
+    --sidebar-border: 24 9% 20%;
+    --sidebar-ring: 38 60% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+
+  body {
+    @apply bg-background text-foreground font-sans;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    @apply font-serif;
+  }
+}
+
+/* Custom animations for museum experience */
+@keyframes fade-in-up {
+  from {
+    opacity: 0;
+    transform: translateY(30px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+@keyframes gentle-float {
+  0%, 100% {
+    transform: translateY(0px);
+  }
+  50% {
+    transform: translateY(-10px);
+  }
+}
+
+@keyframes shimmer {
+  0% {
+    background-position: -1000px 0;
+  }
+  100% {
+    background-position: 1000px 0;
+  }
+}
+
+.animate-fade-in-up {
+  animation: fade-in-up 0.8s ease-out forwards;
+}
+
+.animate-gentle-float {
+  animation: gentle-float 3s ease-in-out infinite;
+}
+
+/* Staggered animation delays */
+.delay-100 { animation-delay: 100ms; }
+.delay-200 { animation-delay: 200ms; }
+.delay-300 { animation-delay: 300ms; }
+.delay-400 { animation-delay: 400ms; }
+.delay-500 { animation-delay: 500ms; }
