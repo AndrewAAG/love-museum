@@ -9,7 +9,7 @@ export default defineConfig(({ mode }) => ({
     host: "::",
     port: 8080,
   },
-  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean), base:'/love-museum',
+  plugins: [react(), mode === "development" && componentTagger()].filter(Boolean), base:'/love-museum/',
   resolve: {
     alias: {
       "@": path.resolve(__dirname, "./src"),

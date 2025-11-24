@@ -14,14 +14,14 @@ import LetterDetail from "./pages/LetterDetail";
 import NotFound from "./pages/NotFound";
 
 const queryClient = new QueryClient();
-
+const basename = "/love-museum";
 const App = () => (
   <QueryClientProvider client={queryClient}>
     <BirthdayProvider>
       <TooltipProvider>
         <Toaster />
         <Sonner />
-        <BrowserRouter>
+        <BrowserRouter basename={basename}>
           <Routes>
             <Route path="/" element={<Index />} />
             <Route path="/gallery" element={<Gallery />} />
