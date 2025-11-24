@@ -5,6 +5,15 @@ import { ArrowLeft, Heart, Clock, PartyPopper, BookOpen } from "lucide-react";
 import MemoryCard from "@/components/MemoryCard";
 import { useBirthday } from "@/contexts/BirthdayContext";
 import ohayou from "@/assets/ohayou.jpg";
+import rui from "@/assets/rui.jpg";
+import cserayu from "@/assets/cuanki_serayu.webp";
+import cbali from "@/assets/cafe-bali_.webp";
+import noisy from "@/assets/noisymatcha.jpg";
+import atmo from "@/assets/atmo.jpg";
+import gorm1 from "@/assets/gourmet_bday_andrew.jpg";
+import sgn from "@/assets/siagian.jpg";
+import bake1 from "@/assets/baking_6.jpg";
+
 
 // Sample memories - you can later make this dynamic
 const memories = [
@@ -14,47 +23,135 @@ const memories = [
     date: "October 2, 2025",
     image: ohayou,
     description: "That little cafe where everything started.",
-    tags: ["milestone", "food"],
+    tags: ["food & drink"],
   },
   {
     id: 2,
     title: "RUI 琉偉",
     date: "October 5, 2025",
-    image: "src/assets/rui.JPG",
+    image: rui,
     description: "Japanese Restaurant di Jalan Bahureksa. ",
-    tags: ["milestone", "food"],
+    tags: ["food & drink"],
   },
   {
     id: 3,
     title: "Cuanki Serayu",
     date: "October 5, 2025",
-    image: "src/assets/cuanki_serayu.webp",
+    image: cserayu,
     description: "Best Cuanki in Bandung",
-    tags: ["food", "milestone"],
+    tags: ["food & drink"],
   },
   {
     id: 4,
     title: "Cafe Bali",
-    date: "May 10, 2023",
-    image: "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=800&q=80",
-    description: "The pasta was burnt, the kitchen was a mess, but we made the best memories.",
-    tags: ["food moments", "funny"],
+    date: "October 12, 2025",
+    image: cbali,
+    description: "Cafe Bali - Indonesian Restaurant di Jalan Riau",
+    tags: ["food & drink"],
   },
   {
     id: 5,
     title: "Noisy Matcha",
-    date: "July 3, 2023",
-    image: "https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=800&q=80",
-    description: "Wrapped in blankets, watching the rain, with nothing but time and each other.",
-    tags: ["cozy", "favorite"],
+    date: "October 12, 2025",
+    image: noisy,
+    description: "Noisy Matcha - New Matcha Store in Bandung",
+    tags: ["food & drink"],
   },
   {
     id: 6,
     title: "Atmosphere",
-    date: "August 17, 2023",
-    image: "https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=800&q=80",
-    description: "Walking through art galleries, pretending to be sophisticated, stealing kisses when no one looked.",
-    tags: ["travel", "favorite"],
+    date: "October 12, 2025",
+    image: atmo,
+    description: "Great restaurant for dining, good place, and good vibes.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 7,
+    title: "Gormeteria",
+    date: "October 19, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 8,
+    title: "Lapo Siagian",
+    date: "November 2, 2025",
+    image: sgn,
+    description: "One of the best babi in Bandung",
+    tags: ["food & drink"],
+  },
+  {
+    id: 9,
+    title: "Baking at Dede's House!",
+    date: "November 2, 2025",
+    image: bake1,
+    description: "The best bread and my favorite bread. Made by the most beautiful girl.",
+    tags: ["food & drink", "activity"],
+  },
+  {
+    id: 10,
+    title: "Bumus",
+    date: "November 9, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 11,
+    title: "Dakken",
+    date: "November 9, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 12,
+    title: "Justus",
+    date: "November 15, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 13,
+    title: "Parents Are Watching",
+    date: "November 15, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 14,
+    title: "Pottery",
+    date: "November 16, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 15,
+    title: "Nasgor Pak Ikin",
+    date: "November 16, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 16,
+    title: "Queen",
+    date: "November 17, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 17,
+    title: "Nasgor Toyib",
+    date: "November 23, 2025",
+    image: gorm1,
+    description: "Great restaurant. Special day with special person.",
+    tags: ["food & drink"],
   },
 ];
 

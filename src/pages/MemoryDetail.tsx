@@ -9,6 +9,21 @@ import {
   CarouselNext,
   CarouselPrevious,
 } from "@/components/ui/carousel";
+import ohayou from "@/assets/ohayou.jpg";
+import rui from "@/assets/rui.jpg";
+import rui2 from "@/assets/rui_3.avif";
+import cserayu from "@/assets/cuanki_serayu.webp";
+import cbali from "@/assets/cafe-bali_.webp";
+import noisy from "@/assets/noisymatcha.jpg";
+import nm2 from "@/assets/nm2.webp";
+import atmo from "@/assets/atmo.jpg";
+import atmo2 from "@/assets/atmosphere.jpg";
+import gorm1 from "@/assets/gourmet_bday_andrew.jpg";
+import gorm2 from "@/assets/gormet.webp";
+import sgn from "@/assets/siagian.jpg";
+import bake1 from "@/assets/baking_6.jpg";
+import bake2 from "@/assets/baking_2.jpg";
+import bake3 from "@/assets/baking_5.jpg";
 
 // This would typically come from a shared data file or API
 const memories = [
@@ -17,74 +32,103 @@ const memories = [
     title: "Ohayou Ciumbuleuit",
     date: "October 2, 2025",
     images: [
-      "../src/assets/ohayou.jpg",
+      ohayou,
     ],
     description: "That little cafe where everything started.",
     fullStory: "Cafe depan UNPAR yang jadi tempat pertama kali kita hangout. Kita mam kaya toast and rice bowl. Dede makan rice bowlnya ga abis terus dikasih ke I karena porsinya gede. ",
-    tags: ["milestone", "food"],
+    tags: ["food & drink"],
   },
   {
     id: 2,
     title: "RUI 琉偉",
     date: "October 5, 2025",
     images: [
-      "../src/assets/rui.jpg",
-      "../src/assets/rui_3.avif",
-      "https://images.unsplash.com/photo-1472791108553-c9405341e398?w=1200&q=80",
+      rui,
+      rui2,
     ],
     description: "Japanese Restaurant di Jalan Bahureksa.",
     fullStory: "Tempat pertama kali First Date. Restorannya fancy, tempatnya enak. Kita pesen mam yang beef hamburg diatas charcoal sama edamame. Rasa makanannya enak and beefnya juicy. Parkirannya juga cukup oke, bisa parkir di lahan RUI nya, atau di sebrang sebrangnya juga bisa parkir. Harganya yaa oke la, medium price, around 100rban ++ per orang. ",
-    tags: ["milestone", "food"],
+    tags: ["food & drink"],
   },
   {
     id: 3,
     title: "Cuanki Serayu",
     date: "October 5, 2025",
     images: [
-      "../src/assets/cuanki_serayu.webp",
+      cserayu,
     ],
     description: "Best Cuanki in Bandung",
     fullStory: "Tempat pertama first date. Dede baru pertama kali makan Cuanki terus dibawa kesini dan katanya enak banget, sampe pengen kesini lagi. Lokasinya di jalan Cihapit, tempat utamanya kaya di yang gambar. Tapi ternyata di deket situnya (maju dikit terus belok kiri) itu ada tempat keduanya juga. Jadi kalo di yang main nya penuh, bisa makan disitu. Harga cheap. ",
-    tags: ["food", "milestone"],
+    tags: ["food & drink"],
   },
   {
     id: 4,
     title: "Cafe Bali",
-    date: "May 10, 2023",
+    date: "October 12, 2025",
     images: [
-      "https://images.unsplash.com/photo-1556911220-bff31c812dba?w=1200&q=80",
-      "https://images.unsplash.com/photo-1466637574441-749b8f19452f?w=1200&q=80",
-      "https://images.unsplash.com/photo-1512621776951-a57141f2eefd?w=1200&q=80",
+      cbali,
     ],
-    description: "The pasta was burnt, the kitchen was a mess, but we made the best memories.",
-    fullStory: "Our ambitious plan to cook a five-course Italian dinner quickly devolved into beautiful chaos. The pasta sauce somehow ended up on the ceiling (we're still not sure how), the garlic bread was more 'charcoal' than 'golden,' and we may have set off the smoke alarm twice. But as we sat on the kitchen floor, surrounded by flour and failed attempts at tiramisu, eating takeout pizza and laughing at our culinary disasters, I realized this was more perfect than any fancy dinner could have been. We learned that day that it's not about the perfect meal—it's about the laughter, the teamwork, and the memories we create together, even in failure.",
-    tags: ["food moments", "funny"],
+    description: "Cafe Bali - Indonesian Restaurant di Jalan Riau",
+    fullStory: "Mam di Cafe Bali sebelum badminton. Dede makan ayam yang warna kuning. I makan bistik sapi. Dede suka makanannya and harganya juga okay medium.",
+    tags: ["food & drink"],
   },
   {
     id: 5,
     title: "Noisy Matcha",
-    date: "July 3, 2023",
+    date: "October 12, 2025",
     images: [
-      "https://images.unsplash.com/photo-1513002749550-c59d786b8e6c?w=1200&q=80",
-      "https://images.unsplash.com/photo-1481653125770-b78c206c59d4?w=1200&q=80",
-      "https://images.unsplash.com/photo-1501004318641-b39e6451bec6?w=1200&q=80",
+      noisy,
+      nm2
     ],
-    description: "Wrapped in blankets, watching the rain, with nothing but time and each other.",
-    fullStory: "The storm rolled in unexpectedly, canceling all our outdoor plans. Instead of disappointment, we embraced it. We built a fort of blankets and pillows in the living room, made hot chocolate with way too many marshmallows, and spent the entire day in our cozy cocoon. We watched old movies, read passages from our favorite books to each other, and listened to the rhythmic drumming of rain against the windows. There was something magical about being cut off from the world, just the two of us in our little sanctuary. No phones, no distractions—just us, the rain, and the comfortable silence that only comes when you're with someone who feels like home.",
-    tags: ["cozy", "favorite"],
+    description: "Noisy Matcha - New Matcha Store in Bandung",
+    fullStory: "Grand opening Noisy Matcha di jalan Soka, deket Cafe Bali. I beli yang banana pudding, dede beli yang ada strawberrynya. Enak banget rasanya. Terus juga lucu disini pertama kali kita bikin story IG bareng WKWKWKWKWK, sampe banyak temen temen i reply. Harganya around 60k.",
+    tags: ["food & drink"],
   },
   {
     id: 6,
     title: "Atmosphere",
-    date: "August 17, 2023",
+    date: "October 12, 2025",
     images: [
-      "https://images.unsplash.com/photo-1499781350541-7783f6c6a0c8?w=1200&q=80",
-      "https://images.unsplash.com/photo-1460661419201-fd4cecdf8a8b?w=1200&q=80",
-      "https://images.unsplash.com/photo-1566127444979-b3d2b34f45b4?w=1200&q=80",
+      atmo,
+      atmo2,
     ],
-    description: "Walking through art galleries, pretending to be sophisticated, stealing kisses when no one looked.",
-    fullStory: "We spent the afternoon wandering through the contemporary art museum, trying to look cultured and sophisticated. You made up elaborate backstories for abstract paintings, each more ridiculous than the last, while I tried not to laugh too loudly in the quiet galleries. In front of a massive sculpture, when the guard wasn't looking, you pulled me close for a quick kiss. We debated the meaning of installations, pretended to understand modern art, and took far too many photos trying to recreate famous poses. As we left, you said it was one of your favorite dates, not because of the art, but because we could be silly together while surrounded by serious faces. That's when I knew—you make every ordinary moment extraordinary.",
-    tags: ["travel", "favorite"],
+    description: "Great restaurant for dining, good place, and good vibes.",
+    fullStory: "First time dede mam bareng my family, and meet my grandparents. Makanannya enakk, i makan steak terus dede makan nasi apa ya lupa. Tempatnya juga nice banget, ada musicnya. Very good restaurant and romantic for dinner.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 7,
+    title: "Gormeteria",
+    date: "October 19, 2025",
+    images: [
+      gorm1,
+      gorm2,
+    ],
+    description: "Great restaurant. Special day with special person.",
+    fullStory: "My birthday dinner. Great restaurant. Makanannya enak enak, banyak pilihannya. Placenya juga enak and price masuk akal, medium price. Disini juga dede pertama kali ketemu my cousins, uncle, and aunt. ",
+    tags: ["food & drink"],
+  },
+  {
+    id: 8,
+    title: "Lapo Siagian",
+    date: "November 2, 2025",
+    images: [
+      sgn,
+    ],
+    description: "One of the best babi in Bandung",
+    fullStory: "Ngajakin dede eat siagian for the first time, and she said enak bangettt. Kita kalap makannya, dede sampe makan 1.5 porsi, terus i makan 2.5 porsi daging + 2 nasi. Kuahnya enak banget. Real hidden gem. ",
+    tags: ["food & drink"],
+  },
+  {
+    id: 9,
+    title: "Baking at Dede's House!",
+    date: "November 2, 2025",
+    images: [
+      bake1, bake2, bake3,
+    ],
+    description: "The best bread and my favorite bread. Made by the most beautiful girl.",
+    fullStory: "Very fun momentttt. I like this moment a lot. Gw suka ngeliatin lu bakingg, lu keliatan happy banget and enjoy baking. Terus banana bread lu and blueberry creamcheese bread nya SUPER ENAKKKK. Keluarga gw juga suka. Pengen lagi somedayy ya dede HEHEHEHHEE. Hopefully you will have your own bakery someday.",
+    tags: ["food & drink", "activity"],
   },
 ];
 
