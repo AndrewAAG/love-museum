@@ -4,6 +4,7 @@ import { Button } from "@/components/ui/button";
 import { ArrowLeft, Heart, Clock, PartyPopper, BookOpen } from "lucide-react";
 import MemoryCard from "@/components/MemoryCard";
 import { useBirthday } from "@/contexts/BirthdayContext";
+import ohayou from "@/assets/ohayou.jpg";
 
 // Sample memories - you can later make this dynamic
 const memories = [
@@ -11,7 +12,7 @@ const memories = [
     id: 1,
     title: "Ohayou Ciumbuleuit",
     date: "October 2, 2025",
-    image: "src/assets/ohayou.jpg",
+    image: ohayou,
     description: "That little cafe where everything started.",
     tags: ["milestone", "food"],
   },
