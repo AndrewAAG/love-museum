@@ -12,7 +12,7 @@ const BirthdayContext = createContext<BirthdayContextType | undefined>(undefined
 
 // Set your girlfriend's birthday here (month is 0-indexed: 0 = January, 11 = December)
 const BIRTHDAY_MONTH = 10; // November
-const BIRTHDAY_DAY = 26; // 27th (change this)
+const BIRTHDAY_DAY = 27; // 27th (change this)
 
 export const BirthdayProvider = ({ children }: { children: ReactNode }) => {
   const [isBirthdayMode, setIsBirthdayMode] = useState(false);
