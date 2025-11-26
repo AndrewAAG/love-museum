@@ -24,6 +24,26 @@ import sgn from "@/assets/siagian.jpg";
 import bake1 from "@/assets/baking_6.jpg";
 import bake2 from "@/assets/baking_2.jpg";
 import bake3 from "@/assets/baking_5.jpg";
+import bumus from "@/assets/bumus.jpeg";
+import dakken from "@/assets/dakken.png";
+import pot2 from "@/assets/pottery_2.jpg";
+import pot4 from "@/assets/pottery_4.png";
+import pot from "@/assets/pottery.jpg";
+import toyib_1 from "@/assets/toyib_1.jpg";
+import toyib_2 from "@/assets/toyib_2.jpg";
+import toyib_3 from "@/assets/toyib_3.jpg";
+import queen1 from "@/assets/queen_ultah_oma.jpg";
+import queen2 from "@/assets/queen_ultah_oma_2.jpg";
+import ikin1 from "@/assets/ikin_1.jpg";
+import ikin2 from "@/assets/ikin_2.jpg";
+import ikin3 from "@/assets/ikin_3.jpg";
+import justus1 from "@/assets/justus1.jpg";
+import justus2 from "@/assets/justus2.jpg";
+import justus3 from "@/assets/justus3.jpg";
+import paw1 from "@/assets/paw1.jpg";
+import paw2 from "@/assets/paw2.jpg";
+import paw3 from "@/assets/paw3.jpg";
+import paw4 from "@/assets/paw4.jpg";
 
 // This would typically come from a shared data file or API
 const memories = [
@@ -129,6 +149,94 @@ const memories = [
     description: "The best bread and my favorite bread. Made by the most beautiful girl.",
     fullStory: "Very fun momentttt. I like this moment a lot. Gw suka ngeliatin lu bakingg, lu keliatan happy banget and enjoy baking. Terus banana bread lu and blueberry creamcheese bread nya SUPER ENAKKKK. Keluarga gw juga suka. Pengen lagi somedayy ya dede HEHEHEHHEE. Hopefully you will have your own bakery someday.",
     tags: ["food & drink", "activity"],
+  },
+  {
+    id: 10,
+    title: "Bumus",
+    date: "November 9, 2025",
+    images: [
+      bumus,
+    ],
+    description: "Favorite Restaurant! Makanan paling enak di bumi",
+    fullStory: "Ini my favorite restaurant in the world! Makanannya enak banget hampir semua menu. Dede juga suka kannnn. Makanan yang enak: ayam goreng, kembung balado, ikan tauco, ayam pop, rendang, nasi rames, semuanya enak pokonya.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 11,
+    title: "Dakken",
+    date: "November 9, 2025",
+    images: [
+      dakken,
+    ],
+    description: "Special Restaurant. Good foods and Good Place. The place that you become my girlfriend.",
+    fullStory: "Very special restaurant karena ini tempat i confess and asked you to be my girlfriend. Makanannya enak banget, gw suka nachosnya, terus salmonnya enak, steaknya enak. Dede makan mac and cheese porsinya gede terus ga abis. Definitely the most memorable restaurant.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 12,
+    title: "Justus",
+    date: "November 15, 2025",
+    images: [
+      justus1, justus2, justus3
+    ],
+    description: "One of the best steak resto",
+    fullStory: "Kita kesini ngerayain my grandma birthdayy. Steak di justus enak banget, fav i yang sirlion",
+    tags: ["food & drink"],
+  },
+  {
+    id: 13,
+    title: "Parents Are Watching",
+    date: "November 15, 2025",
+    images: [
+      paw4, paw1, paw2, paw3
+    ],
+    description: "Aesthetic Cafe, Great Dessert",
+    fullStory: "Cafenya estetik, designnya bagus. Tiramisu sama eskrimnya juga enak banget n harganya oke. Tapi parkir dipinggir jalan and nyari pintu masuknya awalnya susah. Terus isi tempatnya the nuruls semua and photoboothnya rusakkk.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 14,
+    title: "Pottery",
+    date: "November 16, 2025",
+    images: [
+      pot2, pot4, pot
+    ],
+    description: "SUPER FUN ACTIVITY! Had a lot of fun doing this",
+    fullStory: "Ini seruu bangetttt. Masuk ke gang kecil di jalan Astana Anyar, jauh juga jalannya. Terus ikut class dari jam 9 - 12. I bikin vas bunga bebek buat dede and dede bikinin polaroid photo holderr. Kita diajarin sama Mas Lucky.",
+    tags: ["activity"],
+  },
+  {
+    id: 15,
+    title: "Nasgor Pak Ikin",
+    date: "November 16, 2025",
+    images: [
+      ikin1, ikin2, ikin3
+    ],
+    description: "Nasgor Gerobakan in Asia Afrikaa. Recommended by Dede.",
+    fullStory: "Nasgor Gerobakan di Jalan Homan, Belok dikit dari jalan Asia Afrika di gang kecil. Rasanya enak banget terus menunya juga banyak. I pesen yang ayam sama kambing. Porsinya juga okay, tapi buat dede kebanyakan. Harganya juga cheap. Parkirnya agak susah tapi soalnya gang nya kecil.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 16,
+    title: "Queen",
+    date: "November 17, 2025",
+    images: [
+      queen1, queen2
+    ],
+    description: "Best chinese restaurant in Bandung. Makanannya bikin kalap n gabisa berenti makan.",
+    fullStory: "First time dede meet my big family. Dede ikut ke acara ultah my grandma (68th birthday). Di queen makannya enak banget, semua menunya enak. Ada babi hong, nasi goreng, telor kepiting, ayam rebus. Pokonya semuanya enak deh.",
+    tags: ["food & drink"],
+  },
+  {
+    id: 17,
+    title: "Nasgor Toyib",
+    date: "November 23, 2025",
+    images: [
+      toyib_1, toyib_2, toyib_3
+    ],
+    description: "Great nasgor gerobakan in Batununggal. Loved by my fam and dede love it too..",
+    fullStory: "Nasi Goreng kedua terenak di Bandung (for me), and lokasinya deket banget dari rumah I. Dede juga bilang ini enak banget bahkan lebih enak dari ikin. Porsinya buat dede kebanyakan, dede cuma abis setengah. Harganya juga cheap. Bakal sering bawa dede makan ini.",
+    tags: ["food & drink"],
   },
 ];
 

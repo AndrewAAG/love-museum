@@ -1,10 +1,9 @@
 import { useNavigate } from "react-router-dom";
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
-import { ArrowLeft, Heart, Sparkles, Cake, PartyPopper } from "lucide-react";
+import { ArrowLeft, Heart, Sparkles, Gift, Cake, PartyPopper } from "lucide-react";
 import { useBirthday } from "@/contexts/BirthdayContext";
 import BirthdayConfetti from "@/components/BirthdayConfetti";
-import BirthdayCake from "@/components/BirthdayCake";
 
 const Birthday = () => {
   const navigate = useNavigate();
@@ -87,14 +86,14 @@ const Birthday = () => {
                 <p>
                   Andd enjoy your special day today. Enjoy today with orang orang yang dede sayangg yaa, your family, your friends, my family, and your boyfriend hehe. Always remember kalo banyak
                   banget yang sayang sama dede! Your fam loves u, your friends loves u, my family loves u, and I loves you soooo muchhhhhhh. Lupain dulu semua tugas dan jangan mikirin yang pusing pusing hari ini. Jangan lupa bersyukur dan berdoa ke Tuhan yaa, and hopefully all of your wishes comes true. 
-                  This is the first birthday we've celebrated together, and I hope it's the first of many more to come.
+                  This is the first birthday we've celebrated together, and I hope it's the first of many more to com.
                 </p>
                 <p className="font-medium text-foreground pt-4">
                   Once again, Happy birthday dede, my girlfriend,  my sweet Vanessa, my sound of rain, my complimentary
-                  side of the color wheel, my silver lining, and my everything.
+                  side of the color wheel, and my everything.
                 </p>
                 <p className="text-right italic">
-                  With all my love, always ❤️ - Bubub
+                  I love you so much ❤️ - Bubub
                 </p>
               </div>
             </CardContent>
@@ -137,20 +136,47 @@ const Birthday = () => {
           </Card>
         </div>
 
-        {/* Birthday Cake Section */}
+        {/* Video/Media Section */}
         <Card className="mb-12 border-accent/50 animate-fade-in-up opacity-0 delay-400 overflow-hidden bg-gradient-to-br from-card to-background">
-          <CardContent className="p-6 md:p-8 space-y-6">
+          <CardContent className="p-8 space-y-6">
             <div className="flex items-center gap-3 mb-4">
-              <div className="w-12 h-12 rounded-full bg-accent/20 flex items-center justify-center">
-                <Cake className="w-6 h-6 text-accent" />
+              <div className="w-12 h-12 rounded-full bg-destructive/20 flex items-center justify-center">
+                <Gift className="w-6 h-6 text-destructive" />
               </div>
-              <div>
-                <h2 className="text-2xl font-medium">Make a Wish</h2>
-                <p className="text-sm text-muted-foreground">Blow the candle to make a wish and reveal special compliments</p>
-              </div>
+              <h2 className="text-2xl font-medium">Your Birthday Montage</h2>
             </div>
             
-            <BirthdayCake />
+            {/* Placeholder for video/images montage */}
+            <div className="aspect-video bg-gradient-to-br from-muted/50 to-muted rounded-lg flex items-center justify-center border-2 border-dashed border-border">
+              <div className="text-center space-y-4 p-8">
+                <PartyPopper className="w-16 h-16 mx-auto text-accent animate-gentle-float" />
+                <p className="text-muted-foreground max-w-md">
+                  This is where your special birthday video montage or photo slideshow 
+                  will appear—filled with our favorite memories and moments.
+                </p>
+                <p className="text-sm text-muted-foreground/70">
+                  You can add a video URL, embed a slideshow, or upload photos here
+                </p>
+              </div>
+            </div>
+
+            {/* Fun facts or memory highlights */}
+            <div className="grid grid-cols-1 md:grid-cols-3 gap-4 pt-4">
+              {[
+                { label: "Days Together", value: "245+", icon: Heart },
+                { label: "Memories Made", value: "∞", icon: Sparkles },
+                { label: "Smiles Shared", value: "Countless", icon: Cake },
+              ].map((stat, index) => (
+                <div
+                  key={index}
+                  className="text-center p-4 rounded-lg bg-gradient-to-br from-background/50 to-muted/30 border border-border/50"
+                >
+                  <stat.icon className="w-6 h-6 mx-auto mb-2 text-accent" />
+                  <p className="text-2xl font-medium text-foreground mb-1">{stat.value}</p>
+                  <p className="text-sm text-muted-foreground">{stat.label}</p>
+                </div>
+              ))}
+            </div>
           </CardContent>
         </Card>
 
@@ -160,7 +186,8 @@ const Birthday = () => {
             <Heart className="w-10 h-10 text-accent" />
           </div>
           <p className="text-lg text-muted-foreground italic max-w-2xl mx-auto">
-            "Enjoy Your Special Day, My Love."
+            "In a museum of moments, you are the masterpiece. 
+            Happy birthday to the art of my life."
           </p>
         </div>
       </div>

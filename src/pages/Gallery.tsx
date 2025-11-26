@@ -13,7 +13,14 @@ import atmo from "@/assets/atmo.jpg";
 import gorm1 from "@/assets/gourmet_bday_andrew.jpg";
 import sgn from "@/assets/siagian.jpg";
 import bake1 from "@/assets/baking_6.jpg";
-
+import bumus from "@/assets/bumus.jpeg";
+import dakken from "@/assets/dakken.png";
+import pot2 from "@/assets/pottery_2.jpg";
+import toyib_1 from "@/assets/toyib_1.jpg";
+import queen1 from "@/assets/queen_ultah_oma.jpg";
+import ikin1 from "@/assets/ikin_1.jpg";
+import justus1 from "@/assets/justus1.jpg";
+import paw4 from "@/assets/paw4.jpg";
 
 // Sample memories - you can later make this dynamic
 const memories = [
@@ -93,64 +100,64 @@ const memories = [
     id: 10,
     title: "Bumus",
     date: "November 9, 2025",
-    image: gorm1,
-    description: "Great restaurant. Special day with special person.",
+    image: bumus,
+    description: "Favorite Restaurant! Makanan paling enak di bumi",
     tags: ["food & drink"],
   },
   {
     id: 11,
     title: "Dakken",
     date: "November 9, 2025",
-    image: gorm1,
-    description: "Great restaurant. Special day with special person.",
+    image: dakken,
+    description: "Special Restaurant. Good foods and Good Place. The place that you become my girlfriend.",
     tags: ["food & drink"],
   },
   {
     id: 12,
     title: "Justus",
     date: "November 15, 2025",
-    image: gorm1,
-    description: "Great restaurant. Special day with special person.",
+    image: justus1,
+    description: "One of the best steak resto",
     tags: ["food & drink"],
   },
   {
     id: 13,
     title: "Parents Are Watching",
     date: "November 15, 2025",
-    image: gorm1,
-    description: "Great restaurant. Special day with special person.",
+    image: paw4,
+    description: "Aesthetic Cafe, Great Dessert",
     tags: ["food & drink"],
   },
   {
     id: 14,
     title: "Pottery",
     date: "November 16, 2025",
-    image: gorm1,
-    description: "Great restaurant. Special day with special person.",
-    tags: ["food & drink"],
+    image: pot2,
+    description: "SUPER FUN ACTIVITY! Had a lot of fun doing this",
+    tags: ["activity"],
   },
   {
     id: 15,
     title: "Nasgor Pak Ikin",
     date: "November 16, 2025",
-    image: gorm1,
-    description: "Great restaurant. Special day with special person.",
+    image: ikin1,
+    description: "Nasgor Gerobakan in Asia Afrikaa. Recommended by Dede.",
     tags: ["food & drink"],
   },
   {
     id: 16,
     title: "Queen",
     date: "November 17, 2025",
-    image: gorm1,
-    description: "Great restaurant. Special day with special person.",
+    image: queen1,
+    description: "Best chinese restaurant in Bandung. Makanannya bikin kalap n gabisa berenti makan.",
     tags: ["food & drink"],
   },
   {
     id: 17,
     title: "Nasgor Toyib",
     date: "November 23, 2025",
-    image: gorm1,
-    description: "Great restaurant. Special day with special person.",
+    image: toyib_1,
+    description: "Great nasgor gerobakan in Batununggal. Loved by my fam and dede love it too.",
     tags: ["food & drink"],
   },
 ];

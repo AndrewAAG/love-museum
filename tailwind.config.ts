@@ -12,7 +12,13 @@ export default {
         "2xl": "1400px",
       },
     },
-    extend: {
+		extend: {
+			perspective: {
+				'1200': '1200px',
+			},
+			transformStyle: {
+				'preserve-3d': 'preserve-3d',
+			},
       fontFamily: {
         serif: ['Cormorant Garamond', 'serif'],
         sans: ['Inter', 'sans-serif'],
